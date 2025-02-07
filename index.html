@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>房产网站</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=4536259d020e4277597a5914d178c427"></script>
+</head>
+<body>
+    <header>
+        <h1>房源展示</h1>
+        <div>
+            <label for="priceFilter">价格过滤：</label>
+            <input type="number" id="priceFilter" placeholder="最大价格">
+        </div>
+    </header>
+    <main>
+        <div id="map" style="height: 400px;"></div>
+        <ul id="propertyList"></ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
